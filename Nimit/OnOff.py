@@ -4,7 +4,7 @@ import time
 GPIO.setmode(GPIO.BOARD) #GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(12,GPIO.OUT)
-print('haaaaa')
+print('haaaaa mmmmaa')
 
 for i in range(10):
     GPIO.output(12,i%2)
